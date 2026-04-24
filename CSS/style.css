@@ -1,0 +1,49 @@
+*{
+    margin: 0; /*Remove margens padrões*/
+    padding: 0;/*Remove espaçamento interno*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;/*Define fonte padrão*/
+    background-color: rgb(255, 255, 255);/*Define cor de fundo*/
+    display: flex;/*Ativa o flexbox da página*/
+    justify-content: center;/*Centraliza em horizontal*/
+    align-items: center;/*Centraliza verticalmente*/
+    height: 100vh;/*Altura total a tela*/
+}
+div{
+    background-color: rgb(255, 216, 216);
+    padding: 25px;/*Espaçamento interno dentro do form*/
+    border-radius: 10px;/*Arrendodar as bordas do form*/
+    width: 350px;/*Determinar a largura do form*/
+    box-shadow: rgba(121, 47, 47, 0.493) 4px 6px;/*Dá profundidade, uma sombra suave*/
+}
+h1{
+    color: rgb(224, 49, 119);
+    text-align: center;/*Alinhamento do texto*/
+    font-size: 30px;/*Altera o tamanho do título*/
+    margin-bottom: 20px;/*Altera o espaçamento do espaço abaixo*/
+}
+label{
+    color: rgb(224, 49, 119);
+    font-weight: bold;/*Deixa em negrito*/
+    display: block;/*Faz a lavel ocupar toda a linha*/
+    margin-top: 10px;/*Dá espaçamento a partir do topo */
+    margin-bottom: 3px;/*Dá espaçamento a partir da base*/
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 2px;
+    border-color: rgba(132, 97, 97, 0.55);
+}
+#enviar{
+    background-color: rgb(231, 175, 175);
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+
