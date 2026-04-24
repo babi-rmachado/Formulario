@@ -1,6 +1,7 @@
 *{
     margin: 0; /*Remove margens padrões*/
     padding: 0;/*Remove espaçamento interno*/
+    box-sizing: border-box;/*Calcula o tamanho das bordas e do padding*/
 }
 body{
     font-family: Arial, Helvetica, sans-serif;/*Define fonte padrão*/
@@ -44,6 +45,13 @@ input{
     color: white;
     padding: 8px;
     margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;/*Altera o cursor*/
+}
+#enviar:hover{
+    background-color: rgb(159, 23, 50);
 }
 
 
