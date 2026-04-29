@@ -6,7 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;/*Define fonte padrão*/
     background-color: rgb(255, 255, 255);/*Define cor de fundo*/
-    display: flex;/*Ativa o flexbox da página*/
+    display: flex;/*Ativa o flexbox da página,deixa a página flexível do jeito que eu quero.*/
     justify-content: center;/*Centraliza em horizontal*/
     align-items: center;/*Centraliza verticalmente*/
     height: 100vh;/*Altura total a tela*/
